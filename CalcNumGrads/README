@@ -1,0 +1,55 @@
+Program Author ~ Aranesh Athavan 
+
+PURPOSE  
+--------- 
+The purpose of this program is for the user to interact with and 
+have dsiplayed graduate data reports in the world.Reports 
+of graduate percentages of degrees of bachelor, masters and 
+doctorate.Futhermore, these reports are displayed to show change 
+of growth, rank of countries based on the number of graduates or 
+just to provide info on a particular topic of records data. 
+
+LIST OF SOURCE AND HEADER FILES 
+------------------------------- 
+main.c 
+calculate.c 
+initalization.c 
+computeReports.c 
+traverseReports.c 
+printLists.c 
+defs.h 
+
+Compilation and Launching instructions 
+-------------------------------------- 
+1)Once the terminal is booted up extract the tar file called final 
+and make sure the directory in the terminal is in the file final 
+  
+2)Once the direcotry in the file final type and type  make to compile the  
+program and to make sure everything is uptodated 
+
+3)Then type ./run in the terminal so that the program can start 
+ 
+4)After this step the user will be given instruction that they have 
+to input based on the report they would like to be displayed 
+
+New Reports 
+----------- 
+ YEAR OF THE HIGHEST GRADUATE PERCENTAGE WITHIN THE COUNTRY REPORT 
+-------------------------------------------------------------------
+If the user selects input 4 a report will be displayed of the  year  
+of highest number of graduates within that country for each degree for 
+each country. What will be displayed is the percentage of that highest 
+year that number of graduates repersent over all the number of graduates 
+for that degree within that country and to its corresponding year for each country for each  
+degree.If zero is outputed that means there is no data. 
+
+THE GROWTH PERCENTAGE OF A DEGREE WITHIN THE COUNTRY FROM A YEAR TO THE FOLLOWING YEAR REPORT 
+---------------------------------------------------------------------------------------------- 
+If the user selectes input 5 a report will be displayed of the growth percentage of the  
+of how the number of graduates increased or decreased for a particular degree within the country 
+from one year to another. Before this report is displayed the user has to input what degree they would 
+like to see and the two years where the second year has to be the following year of the first year. 
+WHat will be displayed is the percetnage and the country, where the report will be sorted from  
+the greatest growth to lowest amount of growth where percentages can be neagtive values indicating 
+that there was a decline. If zero or no data is outputted that means that there is no use of displaying.  
+
