@@ -2,12 +2,15 @@ Program Author ~ Aranesh Athavan
 
 PURPOSE  
 --------- 
-The purpose of this program is for the user to interact with and 
-have dsiplayed graduate data reports in the world.Reports 
-of graduate percentages of degrees of bachelor, masters and 
-doctorate.Futhermore, these reports are displayed to show change 
-of growth, rank of countries based on the number of graduates or 
-just to provide info on a particular topic of records data. 
+
+The purpose of this program is to read in data of the number 
+of graduates from post-secondary institutions
+across the globe. Based on the users choice of report the 
+program will generate and output a statistical report.These reports 
+can contain graduate data of degrees of bachelor, masters and 
+doctorate. Futhermore, these reports are displayed to show the change 
+of growth, rank of countries based on the number of graduates and other 
+variations of the data being maniplulated for a report.
 
 LIST OF SOURCE AND HEADER FILES 
 ------------------------------- 
@@ -16,7 +19,7 @@ calculate.c
 initalization.c 
 computeReports.c 
 traverseReports.c 
-printLists.c 
+printLists.c  
 defs.h 
 
 Compilation and Launching instructions 
@@ -24,7 +27,7 @@ Compilation and Launching instructions
 1)Once the terminal is booted up extract the tar file called final 
 and make sure the directory in the terminal is in the file final 
   
-2)Once the direcotry in the file final type and type  make to compile the  
+2)Once the direcotry in the file final type and then type make to compile the  
 program and to make sure everything is uptodated 
 
 3)Then type ./run in the terminal so that the program can start 
@@ -32,11 +35,11 @@ program and to make sure everything is uptodated
 4)After this step the user will be given instruction that they have 
 to input based on the report they would like to be displayed 
 
-Additional Reports 
------------ 
+Unique reports that the user can pick 
+-------------------------------------
  YEAR OF THE HIGHEST GRADUATE PERCENTAGE WITHIN THE COUNTRY REPORT 
 -------------------------------------------------------------------
-If the user selects input 4 a report will be displayed of the  year  
+If the user selects input 4 a report will be displayed of the year  
 of highest number of graduates within that country for each degree for 
 each country. What will be displayed is the percentage of that highest 
 year that number of graduates repersent over all the number of graduates 
